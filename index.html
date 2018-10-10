@@ -151,15 +151,15 @@
             <div class="row">
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/Mobile-Combined.PNG" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
+                        <h3>NetNutrition 2.0</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            Currently, Iowa State uses an application called Net Nutrition to display food choices and nutrition information about food being served at its dining centers. The application is out of date because the UI is difficult to navigate and does not work well with mobile devices. We decided to remake the application focusing on user interaction and ease of use. We created a web application using vue.js and a backend API for retrieving food information. Also, we created services which allowed users to record food intake and track nutritional consumption. I learned a lot about UI design, how to use JavaScript frameworks, and how to work on a project team.
                         </p>
-                        <a href="#">View Project</a>
+                        <a href="https://github.com/fsanfilippo/NetNutrition2.0">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -167,15 +167,31 @@
 
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/Wikipedia-Graph.png" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
+                        <h3>Wikipedia Web Crawler</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                                The internet is built like a graph; links to other pages are edges and the pages themselves are the nodes. This application traverses Wikipedia pages looking for links to other Wikipedia pages and creates a graph showing pages and links. Obviously, it would take a tremendous amount of computational power and time to traverse the entirety of Wikipedia which is why the crawler stops at a predefined number of pages (around 200). For the assignment, a priority Q class was made to be used in a breath-first search algorithm which then crawled pages in this manner. Also, pages with relevant search topics could be found and crawled first. Through this project I learned more about web crawlers, search algorithms, and efficient algorithm design. 
                         </p>
-                        <a href="#">View Project</a>
+                        <a href="https://github.com/fsanfilippo/311PA1">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/PongGame.PNG" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>PvP WebSocket Pong</h3>
+                        <p>
+                                Using WebSocket, node.js, and WebGl, me and another student created a real time PvP pong game. The application handles all game logic on the backend, so the games don’t get out of sync. The client side retrieves positions for the ball and opponent’s paddle as well as the score then redraws the screen accordingly. It also sends a message over the web socket indicating the direction of the paddle. The backend first matches players up then starts the game, detecting collisions and when points are scored. It also needs to handle players leaving matches, starting new games when they finish, and re-matching players. I learned about handling client connections, real time game state handling, and how to use web sockets, WebGL, and node.js.
+                        </p>
+                        <a href="https://github.com/fsanfilippo/319Portfolio1">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
